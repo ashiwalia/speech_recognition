@@ -23,7 +23,8 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion = 19
+        minSdkVersion 16
+        targetSdkVersion 28
     }
     lintOptions {
         disable 'InvalidPackage'
